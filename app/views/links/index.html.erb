@@ -1,0 +1,6 @@
+<%= content_for(:title, "Home Page ") %>
+<section class="all-links">
+  <%= render @links %>
+</section>
+
+<button><%= link_to "more", root_path(:page => @next_page) %></button>
